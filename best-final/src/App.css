@@ -1,0 +1,134 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #f6ae2d;
+  --secondary: #f26419;
+  --secondary-light: #f4aa5b;
+  --white: #fff;
+}
+
+.header-container {
+  color: #05299e;
+  background-image: linear-gradient(#f265197c, #f6ae2d);
+  font-family: "heart";
+  text-shadow: 2px 2px #ff0000;
+  font-size: 25px;
+  margin: auto;
+  width: 65%;
+  border: 3px solid #2f4858;
+  padding: 10px;
+}
+
+.results {
+  margin: auto;
+  width: 80%;
+  border: 3px solid #2f4858;
+  padding: 10px;
+  background-color: #f6b02de2;
+  text-align: center;
+  color: rgb(4, 40, 72);
+  font-family: "Quicksand", sans-serif;
+}
+
+.ing-container,
+.sup-container {
+  margin: auto;
+  width: 80%;
+  border: 3px solid #2f4858;
+  padding: 10px;
+  background-color: #f6b02de2;
+  text-align: center;
+  color: #05299e;
+  font-family: "heart";
+  text-shadow: 2px 2px #ff0000;
+  font-size: 23px;
+}
+
+.ing-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+body {
+  background-image: url("https://cdn5.vectorstock.com/i/1000x1000/39/79/pop-art-fast-food-concept-vector-18633979.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: auto;
+  list-style: none;
+  margin: 1rem;
+  font-size: 33px;
+  text-decoration: underline;
+  color: black;
+  background-image: linear-gradient(#f265197c, #f6ae2d);
+  width: 100%;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.nav:hover {
+  color: red;
+}
+
+.button,
+.random {
+  background-color: skyblue;
+  color: black;
+  font-family: "heart";
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0.75rem 1rem;
+  border-radius: 50%;
+}
+
+.bar {
+  background-color: white;
+  border: 2px solid var(--secondary);
+  color: var(--white);
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  margin: 0.25rem;
+  width: 50%;
+}
+
+.bar::placeholder {
+  color: rgb(170, 74, 124);
+}
+
+.bar:focus,
+.bar:hover {
+  background-color: var(--secondary);
+  outline: 0;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 5px;
+}
+
+.footer {
+  background-color: #f26419;
+  color: white;
+  /* padding: 2px; */
+  font-size: 33px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  height: 30%;
+  text-shadow: 2px 2px #ff0000;
+}
